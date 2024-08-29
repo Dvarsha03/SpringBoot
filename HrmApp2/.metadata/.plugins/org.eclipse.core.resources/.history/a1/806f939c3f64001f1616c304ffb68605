@@ -1,0 +1,5 @@
+package org.primepro.exception;
+
+public class ResourceNotFoundException {
+
+}

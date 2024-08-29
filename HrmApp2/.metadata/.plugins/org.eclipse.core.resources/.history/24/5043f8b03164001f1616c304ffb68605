@@ -1,0 +1,14 @@
+package org.primepro.serivce;
+
+import java.util.List;
+
+import org.primepro.entity.Emp;
+
+public interface EmployeeService {
+    Emp saveEmp(Emp emp);
+    List<Emp> getAllEmp();
+    Emp getEmpById(Long id);
+    Emp updateEmp(Emp emp,Long id);
+    void deletEmp(Long id);
+    
+}

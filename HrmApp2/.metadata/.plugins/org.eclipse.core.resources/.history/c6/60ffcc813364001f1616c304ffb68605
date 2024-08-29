@@ -1,0 +1,17 @@
+package org.primepro.controller;
+
+import org.primepro.serivce.EmployeeService;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping("/api/employees")
+public class EmployeeContoller {
+private EmployeeService employeeService;
+
+public EmployeeContoller(EmployeeService employeeService) {
+	super();
+	this.employeeService = employeeService;
+}
+
+}

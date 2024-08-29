@@ -1,0 +1,48 @@
+package org.primepro.serivce;
+
+import java.util.List;
+
+import org.primepro.entity.Emp;
+import org.primepro.repository.EmployeeRepository;
+import org.springframework.stereotype.Service;
+
+@Service
+public class EmployeeServiceImp implements EmployeeService {
+	private EmployeeRepository employeeRepository;
+
+	public EmployeeServiceImp(EmployeeRepository employeeRepository) {
+		super();
+		this.employeeRepository = employeeRepository;
+	}
+
+	@Override
+	public Emp saveEmp(Emp emp) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Emp> getAllEmp() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Emp getEmpById(Long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Emp updateEmp(Emp emp, Long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void deletEmp(Long id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
